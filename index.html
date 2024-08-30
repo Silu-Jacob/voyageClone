@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Site</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet  -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- top scrolling  -->
+    <div class="marquee">
+        <div class="row">
+            <div class="col-3"> <p>MONSOON SALE : EXTRA ₹100 OFF | USE CODE - TIPTIP</p></div>
+            <div class="col-3"> <p>BUY 2 & GET 2ND AT FLAT 50% OFF | USE CODE: VE50</p></div>
+            <div class="col-3"> <p>MONSOON SALE : EXTRA ₹100 OFF | USE CODE - TIPTIP </p></div>
+            <div class="col-3"> <p>BUY 2 & GET 2ND AT FLAT 50% OFF | USE CODE: VE50</p></div>
+        </div>
+       
+    </div>
+    <!-- !top scrolling  -->
+
+    <!-- nav bar  -->
+    <div id="topnav" class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="height: 150px;">
+            <div class="container-fluid">
+                <!-- logo -->
+              <img src="https://www.voyageeyewear.com/cdn/shop/files/Voyage_hindi_2.png?v=1720597430&width=350" alt="" height="40px">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- TABS  -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 300px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          SUNGLASSES
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Men</a></li>
+                          <li><a class="dropdown-item" href="#">Women</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-bold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          CATEGORIES
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Shop by Shape</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold fs-5" aria-current="page" href="#">POLARIZED SUN GLASSES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold fs-5" href="#">NEW ARRIVALS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold fs-5" href="#">ACCESSORIES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold fs-5" href="#">RETURN & EXCHANGE</a>
+                  </li>
+                
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <i class="fa-solid fa-magnifying-glass"style="padding: 20px; height: 40px;"></i>
+                    <i class="fa-regular fa-user"style="padding: 20px;height: 40px;"></i>
+                    <i class="fa-solid fa-cart-plus"style="height: 40px;"></i>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>  
+    <!-- !nav bar  -->
+
+    <!-- banner - carousal  -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_149f4b9b-990c-438a-81b3-fc2a5bb55e6c.jpg?v=1718778899&width=1400" class="d-block w-100" alt="try" style="height: 700px;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/5-web.gif?v=1718368122&width=1000" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/Banner_desktop.jpg?v=1719999814&width=1400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- !banner - carousal  -->
+
+     <!-- section 2 - cards - shop by shape  -->
+     <h1 class="p4">Shop by Shape</h1> 
+     <div id="carouselExampleControls" class="carousel slide p-3" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-group">
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_91894806-38b2-4064-a2c1-ac55516ea92a.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                  
+                </div>
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_5-1_d156a07d-24c4-42b0-af5e-fb3fb87194a9.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                
+                </div>
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_4_08a92507-56c2-4079-9c01-a81a921319f4.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card-group">
+                <div class="card">
+                  <img class="d-block" src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_91894806-38b2-4064-a2c1-ac55516ea92a.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                  
+                </div>
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_5-1_d156a07d-24c4-42b0-af5e-fb3fb87194a9.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                
+                </div>
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_4_08a92507-56c2-4079-9c01-a81a921319f4.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group">
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_copy_5_0d274f33-565f-4369-a636-e2b86d8ffcfe.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                </div>
+                <div class="card">
+                  <img src="https://www.voyageeyewear.com/cdn/shop/files/Artboard_1_969739e5-0495-44f0-92b9-55d92fca7079.jpg?v=1719996347&width=300" class="card-img-top" alt="...">
+                </div>
+            </div>
+           </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+     <!-- !section 2 - cards - shop by shape  -->
+  
+     <!-- Quick Picks  -->
+      <h1 style="padding: 25px;"> Quick Picks</h1>
+      <div class="container-fluid">
+      <div class="row row-cols-1 g-4 m-3">
+
+        <div class="col-3">
+          <div class="card">
+            
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/5_3fb417aa-fc75-4809-b8f0-949f66cd32bf.jpg?v=1714424530&width=500" class="card-img-top" alt="...">
+            
+            <div class="overlay">
+              <!-- <div class="btn btn-warning">Save Rs.1.701.00</div> -->
+              <img src="https://www.voyageeyewear.com/cdn/shop/files/2_2d7a94d1-ef5b-4e51-81f2-2e829f15f5e4.jpg?v=1714424530&width=500" alt="">
+          </div>
+         
+            <div class="card-body">
+              
+              <p class="card-text">
+                <span class="fw-bold fs-5">Voyage Captain | Black and Silver Polarized Round Sunglasses for Men & Women - PMG3982<br></span>
+                <span class="fs-4">Rs. 1,299.00
+                    <span style="text-decoration: line-through;"class="fs-4">Rs. 3,000.00</span> <br>
+                    <span class="fw-bold">or Rs.433/Month</span>
+                
+                        <span style="color:blueviolet;">Buy on EMI ></span>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/1001_68b12fb4-0fb1-4f35-939d-3879ea262a42.jpg?v=1714424323&width=500" class="card-img-top" alt="...">
+            <div class="overlay">
+              <!-- <div class="btn btn-warning">Save Rs.1.701.00</div> -->
+              <img src="https://www.voyageeyewear.com/cdn/shop/files/8_cb2a36d6-c77a-412a-a763-b69f4a3f47da.jpg?v=1714424323&width=300" alt="">
+          </div>
+         
+            <div class="card-body">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text">
+                <span class="fw-bold fs-5">Voyage Exclusive Black Polarized Wayfarer Sunglasses for Men & Women - <br>PMG3966<br></span>
+                <span class="fs-4">Rs. 1,299.00
+                    <span style="text-decoration: line-through;"class="fs-4"> Rs. 3,000.00</span> <br>
+                    <span class="fw-bold">or Rs.433/Month</span>
+                
+                        <span style="color:blueviolet;">Buy on EMI ></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/19_67effafa-4625-487c-be06-4507eab209d1.jpg?v=1714424515&width=300" class="card-img-top" alt="...">
+            <div class="overlay">
+              <!-- <div class="btn btn-warning">Save Rs.1.701.00</div> -->
+              <img src="https://www.voyageeyewear.com/cdn/shop/files/11_011a796d-af81-4498-925a-7318d0e4a70b.jpg?v=1714424500&width=300" alt="">
+          </div>
+         
+            <div class="card-body">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text">
+                <span class="fw-bold fs-5"> Voyage Captain | Black Polarized Round Sunglasses for Men & Women - <br> PMG3980 <br></span>
+                <span class="fs-4">Rs. 1,299.00 </span>
+                <span style="text-decoration: line-through;"class="fs-4"> Rs. 3,000.00</span> <br>
+                <span class="fw-bold fs-4">or Rs.433/Month</span>
+                
+                <span style="color:blueviolet;" class="fs-4">Buy on EMI ></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://www.voyageeyewear.com/cdn/shop/files/1_71f41b62-ff35-4f05-a175-a43afcaf8033.jpg?v=1714424500&width=300" class="card-img-top" alt="...">
+            <div class="overlay">
+              <!-- <div class="btn btn-warning">Save Rs.1.701.00</div> -->
+              <img src="https://www.voyageeyewear.com/cdn/shop/files/4_4906a5a1-fbaf-4090-948e-1905547e3fda.jpg?v=1714424515&width=300" alt="">
+          </div>
+         
+          <div class="card-body">
+              <!-- <h5 class="card-title">Card title</h5> -->
+              <p class="card-text">
+                <span class="fw-bold fs-5">Voyage Captain | Gold And Black Polarized Round Sunglasses for Men & Women - <br>PMG3981<br></span>
+                <span class="fs-4">Rs. 1,299.00
+                    <span style="text-decoration: line-through;"class="fs-4">Rs. 1,699.00</span> <br>
+                    <span class="fw-bold">or Rs.433/Month</span>
+                
+                    <span style="color:blueviolet;">Buy on EMI ></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- !Quick Picks  -->
+    
+     <!-- Quick Picks sec 2  -->
+       <div>
+          <div class="row mt-5">
+            <div class="col-3">
+                <video id="colimg" class="p-3">
+                    <source src="//www.voyageeyewear.com/cdn/shop/videos/c/vp/6186a7c86e75449e8caccaf87f7bb102/6186a7c86e75449e8caccaf87f7bb102.HD-1080p-7.2Mbps-30826964.mp4?v=0">
+                 <!-- <img src="https://www.voyageeyewear.com/cdn/shop/files/previ…bb102.thumbnail.0000000000_small.jpg?v=1719223468" alt=""> -->
+                </video>
+            </div>
+            <div class="col-6 p-3">
+                <img src="https://www.voyageeyewear.com/cdn/shop/files/44_64380fc7-2315-4a77-8f66-3936f0066107.jpg?v=1687347679&width=700" alt="">
+            </div>
+             <div class="col-3">
+                <video id="colimg" class="p-3">
+                 <source src="//www.voyageeyewear.com/cdn/shop/videos/c/vp/a9e3ab72ccde49e39da50b915f8f8274/a9e3ab72ccde49e39da50b915f8f8274.HD-1080p-7.2Mbps-30826991.mp4?v=0" type="">
+                 <img class="p3" src="https://www.voyageeyewear.com/cdn/shop/files/previ…f8274.thumbnail.0000000000_small.jpg?v=1719223543" alt="">
+               </video>
+             </div>
+          </div>
+        </div>
+     <!-- !Quick Picks sec 2  -->
+
+
+     <!-- footer  -->
+      <div id="footer">
+        <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted bg-dark">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center p-5  bg-dark">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block text-light bg-dark text-center">
+        <h2>Download the VoyageEyewear App</h2>
+      <!-- apple  -->
+      <a href="" class="market-btn apple-btn" role="button">
+        <span class="market-button-subtitle">Download on the</span>
+        <span class="market-button-title">App Store</span>
+      </a>
+      <!-- android  -->
+      <a href="" class="market-btn google-btn" role="button">
+        <span class="market-button-subtitle">Download on the</span>
+        <span class="market-button-title">Google Play</span>
+      </a>
+    </div>
+      <!-- Left -->
+  
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="ft bg-dark">
+      <div class="container text-md-start justify-content-lg-between"style="margin-top: -17px;">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+           <!-- Grid column -->
+           <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              Services
+            </h6>
+            <p>
+              <a href="#!" class="text-light">Frame Guide</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">Track Your Order ✈️</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">Note to customer</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Contact Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              Information
+            </h6>
+            <p>
+              <a href="#!" class="text-light">Privacy policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">Terms & Conditions</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">Delivery & shipping</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">Return Refunds & Exchange Policies</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">
+              Contact Us
+            </h6>
+            <p>
+              <a href="#!" class="text-light">Email us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">WhatsApp us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-light">Return/Exchange Center</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-light">About Voyage Eyewear</h6>
+
+            <p>
+                <a href="#!" class="text-light" style="text-decoration: none;">About us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-light" style="text-decoration: none;">Blog</a>
+              </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom bg-dark">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block text-light bg-dark fs-4">
+          <span>Let's Connect On</span>
+        
+          <a href="" class="me-4 text-light mx-3">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-light">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-light">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-light">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-light">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-light">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div>
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle fw-bold fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-regular fa-flag"></i> India (INR)
+                </button>
+                <ul class="dropdown-menu dropdown-menu-light">
+                  <li><a class="dropdown-item active" href="#">Afghanistan</a></li>
+                  <li><a class="dropdown-item" href="#">Albania</a></li>
+                  <li><a class="dropdown-item" href="#">Canada</a></li>
+                  <li><a class="dropdown-item" href="#">Germany</a></li>
+                  <li><a class="dropdown-item" href="#">Italy</a></li>
+                </ul>
+              </div>
+        </div>
+        <!-- Right -->
+      </section>
+  
+    <!-- Copyright -->
+    <div class="p-4 bg-dark text-light" style="background-color: rgba(0, 0, 0, 0.05); margin-top: -2px;">
+        
+      <a class="text-light" href="https://mdbootstrap.com/" style="text-decoration: none;">© 2024, Voyage Eyewear - A Unit of SS Enterprises</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+      </div>
+     <!-- !footer  -->
+
+</body>
+</html>

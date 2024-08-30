@@ -1,0 +1,380 @@
+/* *{
+-webkit-box-sizing: border-box;
+     box-sizing: border-box;
+} */
+
+#navbarSupportedContent .nav-link{
+/* margin-left:5%; */
+align-items:center;
+}
+
+.overlay{
+    background-image: url("./home-header-beach-drone-6.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+     height: 700px; 
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.overlay #container .bgtxt1{
+    font-family: "Petemoss", cursive;
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 37%;
+    /* padding: 25px; */
+    margin-top:200px;
+    margin-bottom: 20px;
+}
+.overlay #container .bgtxt2{
+ 
+    /* font-family: "Petemoss", cursive; */
+   position: absolute;
+   font-size: 30px;
+   text-align: center;
+   max-width: 600px;
+   margin-left: 34%;
+   margin-top:300px;
+   opacity: .9;
+   
+}
+.overlay #container .bgtxt3{
+ 
+    /* font-family: "Petemoss", cursive; */
+   position: absolute;
+   /* font-size: 60px; */
+   /* text-align: center; */
+   max-width: 600px;
+   margin-left: 40%;
+   margin-top:530px;
+   /* opacity: .9; */
+}
+
+.btn{
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+
+}
+.btn span {
+    position: relative;
+    transition: 0.5s;
+    font-size: 20px;
+    
+  }
+
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* popular posts  */
+  #popular{
+    margin-top: 120px;
+  }
+
+  #recent{
+    margin-top: 30px;
+  }
+
+  #vlogs{
+    margin-top: 30px;
+  }
+#destination{
+  margin-top: 150px;
+}
+.ftr{
+  margin-top: 140px;
+}
+
+  .image-container{
+    position: relative;
+    margin: 50px;
+    margin-left: 200px;
+    width: 250px;
+    border-radius: 50px;
+    height: 230px;
+    width: 380px;
+    justify-content: center;
+  }
+
+  .image-container img{
+    height: 230px;
+    width: 380px;
+    border-radius: 50px;
+  }
+  .image-container:hover{
+    opacity: .4;
+    /* box-shadow:4px 4px 5px 5px; */
+    background-color:black;
+  }
+
+  .text-overlay{
+    position: absolute;
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+    justify-content: center;
+    font-size: large;
+  }
+
+  .text-overlay spant{
+  font-size: small;
+  }
+
+  .custom-hr hr{
+    width: 35%;
+    margin-left: 700px;
+    /* color: orange; */
+    font-weight: bolder;
+    border-top: 5px solid #ff7f7f;
+  }
+
+  .adv img{
+    width:50%;
+    margin-left:500px;
+  }
+
+  .popsec2 .row .col-2 img:hover{
+    opacity: .9;
+  }
+/* headings  */
+
+  #vlogs h2{
+    font-family: "Petemoss", cursive;
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    margin-left: 1096px;
+    /* margin: 20px; */
+    margin-top: -400px;
+  }
+  #vlogs p{
+  background-color: #ff7f7f;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1200px;
+ height: 50px;
+ padding: 3px;
+  margin-top:-380px;
+  }
+  #recent h2{
+    font-family: "Petemoss", cursive;
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    margin-left: 470px;
+    /* margin: 20px; */
+    margin-top: 2px;
+  }
+  #recent span{
+  background-color: #ff7f7f;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  margin-left: 600px;
+ height: 58px;
+ padding: 3px;
+  margin-top: 8px;
+  }
+  #popular h2{
+    font-family: "Petemoss", cursive;
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    margin-left: 870px;
+    /* margin: 20px; */
+    margin-top: -10px;
+  }
+  #popular p{
+  background-color: #ff7f7f;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1000px;
+ height: 50px;
+ padding: 3px;
+  margin-top: 5px;
+  }
+  #destination h2{
+    font-family: "Petemoss", cursive;
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    margin-left: 850px;
+    /* margin: 20px; */
+    margin-top: -80px;
+  }
+  #destination p{
+  background-color: #ff7f7f;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1000px;
+ height: 50px;
+ padding: 3px;
+  margin-top: -60px;
+  }
+  /* #popular{ */
+    /* position: absolute; */
+  /* } */
+
+  /* pop sec 2 */
+  .popsec2 .row .col-2{
+    width: 230px;
+    margin-left: -20px;
+  }
+.popsec2 .row .col-2 img{
+    height: 400px;
+    width: 210px;
+}
+
+  /* footer  */
+
+  .container .row .col-lg-6 img{
+    margin-left: -200px;
+    /* margin: 200px; */
+    width: 95%;
+    height: 70%;
+  }
+ .Vl{
+    border-left: 2px solid #860606;
+    height: 290px;
+    margin-left: 337px;
+    position: absolute;
+    padding: 2px;
+    width:1px;
+  }
+  .col-lg-3 .list-unstyled{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content:space-between;
+  }
+  
+  .col-lg-3 .list-unstyled a{
+ text-decoration: none;  
+ justify-content:space-between;
+ transition: color 0.3s;
+}
+ .col-lg-3 .list-unstyled a .text-body:hover{
+ color:#ff7f7f;
+ /* font-size: xx-large; */
+}
+
+   .text-uppercase{
+    position: absolute;
+    margin-left: -160px;
+    text-align: center;
+   }
+   .col-lg-3 p{
+            max-width: 2000px; 
+   }
+   .col-lg-3 .btn{
+            background-color: #ff7f7f;
+            width: 155%;
+            height: 55px;
+            /* margin-top: 200px; */
+            text-align:center  ;
+            font-size: 16px;
+            font-weight: bold;
+            /* text-wrap:balance; */
+   }
+   .btnoverlay{
+    margin-top: -30px;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 300px;
+   }
+
+   /* recent posts  */
+   .container .row .col{
+    border-radius: 85px;
+    border-style: none;
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+   }
+
+   .container .row .col img{
+    width: 250px;
+    height: 100px; 
+   }
+   .container .row .col img:hover{
+    opacity: 0.5;
+   }
+   .container .row .col .col-md-8 .card-body p:hover{
+    color:#ff7f7f
+   }
+
+   #post_vlogs{
+    margin-top: 150px;
+    margin-left: 150px;
+    outline: none;
+    outline-style: none;
+   }
+   #post_vlogs .card 
+   { border: none;
+  border-radius: 25px; 
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+
+   #post_vlogs .col-4 iframe{
+   margin-left: 1000px;
+   margin-top: -250px;
+   /* height:200px; */
+   padding: 10px;
+   }
+
+   /* continents  */
+   #cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 2000px;
+    padding: 20px;
+    background-image: url(./bgcon.png), linear-gradient(180deg, rgba(232, 232, 232, .42) 4%, rgba(196, 196, 196, 0) 100%);
+  
+}
+
+.continent {
+    text-align: center;
+    margin: 10px;
+}
+
+.continent img {
+    max-width: 100px;
+    height: auto;
+    size: 55px;
+}
+
+.continent p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
